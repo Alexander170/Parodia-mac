@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito';
+}
+
+.main-section {
+    background-color: #FFAB08;
+    max-width: 100%;
+    height: 466px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.logo_block {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 29px;
+}
+
+.section_burger {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.burger-logo {
+    width: 326px;
+    height: 326px;
+}
+
+.block_text {
+    width: 437px;
+    height: 120px;
+    margin-left: 21px;
+    margin-top: 50px;
+}
+
+.text {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.orange-text {
+    color: #FF5C00;
+}
+
+.dost {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 52px;
+}
+
+.caourusel {
+    padding-left: 75px;
+    padding-right: 134px;
+}
+
+.list_food {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    color: #000000;
+    font-size: 16px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.burger:hover {
+    background-color: #FFAB08;
+    border-radius: 20px;
+}
+
+.text_caourusel {
+    margin-left: 8px;
+}
+
+.cart {
+    width: 300px;
+    height: 467px;
+    margin-top: 50px;
+}
+
+.mr {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.cart_info {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.tovar {
+    width: 41px;
+    height: 20px;
+    background-color: #F2F2F3;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+.block_cart {
+    width: 268px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.burger_image_cart {
+    width: 64px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.burger_info {
+    width: 268px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 268px;
+}
+
+.image_and_info {
+    margin-left: 6px;
+}
+
+.add_new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  width: 84px;
+  height: 40px;
+  background-color: #F2F2F3;
+  border-radius: 15px;
+}
+
+.name_burger, .burger_weight, .burger_price {
+    font-size: 12px;
+}
+
+.name_burger {
+    width: 90px;
+    height: 16px;
+}
+
+.minus, .plus {
+    outline: none;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.minus {
+    padding-right: 5px;
+}
+
+.plus {
+    padding-left: 5px;
+}
+
+.price_block {
+    width: 268px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.free_export {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.button_cart {
+    margin-top: 24px;
+}
+
+.button_export_cart {
+    width: 268px;
+    height: 40px;
+    background-color: #FF7020;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+
+.burgers_and_cart {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.burgers {
+    margin-top: 50px;
+    width: 960px;
+}
+
+.burgers_block_cont {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.burgers_block {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.burger_image_cont {
+    width: 276px;
+    height: 220px;
+    margin-top: 12px;
+}
+
+.burger_cart {
+    width: 300px;
+    height: 411px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.burger_cart_price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.burger_name {
+    font-size: 16px;
+}
+
+.burger_weight_cart {
+    margin-top: 12px;
+    color: #B1B1B1;
+}
+
+.add_burger {
+    width: 276px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #F2F2F3;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.wrap_burger {
+    margin-left: 12px;
+}
+
+.burger_cart:hover {
+    -webkit-box-shadow: 0px 10px 7px 6px #F2F2F3;
+    -moz-box-shadow: 0px 10px 7px 6px #F2F2F3;
+    box-shadow: 0px 10px 7px 6px #F2F2F3;
+    border-radius: 25px;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-left: 75px;
+    padding-right: 211px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_footer {
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.social_group {
+    margin-left: 360px;
+    display: flex;
+    gap: 128px;
+}
+
+.footer_logo {
+    width: 300px;
+    height: 58px;
+    margin-left: 40px;
+}
+
+.number {
+    width: 220px;
+    height: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.number_cls {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.order {
+    width: 220px;
+    height: 72px;
+}
+
+.soc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.socials {
+    width: 175px;
+    height: 90px;
+}
+
+.logo_soc {
+    margin-top: 22px;
+    display: flex;
+    gap: 16px;
+}
